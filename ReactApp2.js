@@ -91,14 +91,8 @@ class App extends React.Component {
          <button onClick={this.props.buttonClick}>click Add</button></div>;
        }//render
         
-           //anropa functionen här bara, 
-          //when you want to get hold of input someth which is in event you use state ** u see in code up
-       //click   
-       
        }//inputcomp
        
-  //function object () 
-  
  ReactDOM.render(<App/>,
 		document.getElementById('app'));
 		
