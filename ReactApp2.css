@@ -1,0 +1,28 @@
+
+
+body{
+    background-image: url("react2.jpg");
+    background-size: cover;
+    background-position: center; 
+    
+    background-repeat: no-repeat;
+}
+
+.container ol {
+    margin-top:20px; 
+    background-color: aquamarine;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+li{
+    margin-bottom: 10px;
+     
+}
+input {
+margin-right: 10px;   
+
+}
+ 
