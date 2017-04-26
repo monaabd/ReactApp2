@@ -57,12 +57,15 @@ class App extends React.Component {
   }//render
   
   setNameAndAge(event){
+       
     var el = event.target; // input elementet
-    if (el.placeholder == "name")
+    if (el.placeholder == "Name")
       this.setState({ name: el.value });
-    else if (el.placeholder == "age")
+    else if (el.placeholder == "Age")
       this.setState({ age: el.value });
-  }
+        
+  } 
+      
   
   addNewObject(event) {
      var newList = this.state.oldList;
@@ -82,13 +85,13 @@ class App extends React.Component {
   clickOnMyList(event) {
     let ev= event.target.parentNode;
     //target=span, parentNode=li
-   // console.log(ev);
+   //console.log(ev);
      this.setState ({
        name: ev.childNodes[0].innerText, 
        //childNodes=li's barn som är arrey med 2span
         age: ev.childNodes[1].innerText
      });
-     // console.log(this.state);
+     //console.log(this.state);
   }//clickOnMyList
    
    deleteB(event){
